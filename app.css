@@ -1,0 +1,12 @@
+.te-grid { align-items: start; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#input { min-height: 220px; }
+#input.te-cipher { font-family: var(--mono); font-size: 12.5px; word-break: break-all; }
+.te-pwrow { display: flex; gap: 8px; }
+.te-pwrow .input { flex: 1; min-width: 0; }
+.te-out { min-height: 220px; max-height: 420px; overflow: auto; word-break: break-all; }
+.te-out.bad { color: var(--danger); background: var(--danger-soft); border-color: transparent; word-break: normal; }
+.te-warn { padding: 12px 14px; border-radius: 12px; background: var(--coffee-soft); color: var(--text-2); font-size: 13px; line-height: 1.5; }
+.te-warn b { color: var(--coffee); }
+#mode svg.i { width: 15px; height: 15px; vertical-align: -3px; }
+.te-out.te-plain { font-family: var(--font); font-size: 14.5px; word-break: break-word; }
